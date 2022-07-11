@@ -1,0 +1,92 @@
+[
+  {
+    "_id": 1,
+    "img": "./images/property1.jpg",
+    "name": "Palm Harbor",
+    "price": "2,095",
+    "address": "2699 Green Valley,Highland Lake,FL",
+    "bed": 3,
+    "bath": 2,
+    "area": "5x7 m"
+  },
+  {
+    "_id": 2,
+    "img": "./images/property2.jpg",
+    "name": "Beverly Springfield",
+    "price": "2,700",
+    "address": "2821 Lake Sevilla,Palm Harbor,TX",
+    "bed": 4,
+    "bath": 2,
+    "area": "6x7.5 m"
+  },
+  {
+    "_id": 3,
+    "img": "./images/property3.jpg",
+    "name": "Faulker Ave",
+    "price": "4,550",
+    "address": "900 Woodland St,Michigan,IN",
+    "bed": 4,
+    "bath": 3,
+    "area": "8x10 m"
+  },
+  {
+    "_id": 4,
+    "img": "./images/property4.jpg",
+    "name": "Meadow View",
+    "price": "2,095",
+    "address": "2699 Green Valley,Highland Lake,FL",
+    "bed": 3,
+    "bath": 2,
+    "area": "5x7 m"
+  },
+  {
+    "_id": 5,
+    "img": "./images/property5.jpg",
+    "name": "Oak Barn",
+    "price": "2,095",
+    "address": "2699 Green Valley,Highland Lake,FL",
+    "bed": 3,
+    "bath": 2,
+    "area": "5x7 m"
+  },
+  {
+    "_id": 6,
+    "img": "./images/property6.jpg",
+    "name": "Corner House",
+    "price": "2,095",
+    "address": "2699 Green Valley,Highland Lake,FL",
+    "bed": 3,
+    "bath": 2,
+    "area": "5x7 m"
+  },
+  {
+    "_id": 7,
+    "img": "./images/property7.jpg",
+    "name": "The Old Rectory",
+    "price": "2,095",
+    "address": "2699 Green Valley,Highland Lake,FL",
+    "bed": 3,
+    "bath": 2,
+    "area": "5x7 m"
+  },
+  {
+    "_id": 8,
+    "img": "./images/property8.jpg",
+    "name": "Vicarage Hall",
+    "price": "2,095",
+    "address": "2699 Green Valley,Highland Lake,FL",
+    "bed": 3,
+    "bath": 2,
+    "area": "5x7 m"
+  },
+  {
+    "_id": 9,
+    "img": "./images/property9.jpg",
+    "name": "Toad Fairview",
+    "price": "2,095",
+    "address": "2699 Green Valley,Highland Lake,FL",
+    "bed": 3,
+    "bath": 2,
+    "area": "5x7 m"
+  }
+]
