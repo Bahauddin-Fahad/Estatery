@@ -6,7 +6,7 @@ const SearchFilters = () => {
       <div className="flex flex-col md:flex-row lg:flex-row justify-evenly">
         <div className="pt-2">
           <p className="text-start text-gray-400 text-sm font-bold">Location</p>
-          <select className="select select-ghost w-full max-w-sm pl-0 font-bold">
+          <select className="select select-ghost w-full max-w-sm pl-0 font-bold focus:outline-none">
             <option selected>New York,USA</option>
             <option>Los Angels</option>
             <option>Texas</option>
@@ -16,7 +16,7 @@ const SearchFilters = () => {
         <div className="h-0 md:h-12 lg:h-12 w-0 md:w-[2px] lg:w-[2px] rounded-full bg-gray-300 my-auto"></div>
         <div className="pt-2">
           <p className="text-start text-gray-400 text-sm font-bold">When</p>
-          <select className="select select-ghost w-full max-w-xs pl-0 font-bold">
+          <select className="select select-ghost w-full max-w-xs pl-0 font-bold focus:outline-none">
             <option selected>Select Move-in Date</option>
             <option>Svelte</option>
             <option>Vue</option>
@@ -26,7 +26,7 @@ const SearchFilters = () => {
         <div className="h-0 md:h-12 lg:h-12 w-0 md:w-[2px] lg:w-[2px] rounded-full bg-gray-300 my-auto"></div>
         <div className="pt-2">
           <p className="text-start text-gray-400 text-sm font-bold">Price</p>
-          <select className="select select-ghost w-full max-w-xs pl-0 font-bold">
+          <select className="select select-ghost w-full max-w-xs pl-0 font-bold focus:outline-none">
             <option selected>$500-$2,000</option>
             <option>$2,000-$3,100</option>
             <option>$3,100-$4,400</option>
@@ -38,7 +38,7 @@ const SearchFilters = () => {
           <p className="text-start text-gray-400 text-sm font-bold">
             Property Type
           </p>
-          <select className="select select-ghost w-full max-w-xs pl-0 font-bold">
+          <select className="select select-ghost w-full max-w-xs pl-0 font-bold focus:outline-none">
             <option selected>Houses</option>
             <option>Cottage</option>
             <option>Aparments</option>

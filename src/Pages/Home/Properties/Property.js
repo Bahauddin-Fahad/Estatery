@@ -1,4 +1,5 @@
 import React from "react";
+import { CgHeart } from "react-icons/cg";
 import { IoBedOutline } from "react-icons/io5";
 import { TbBath, TbSquareRotated } from "react-icons/tb";
 const Property = ({ property }) => {
@@ -10,11 +11,18 @@ const Property = ({ property }) => {
           <img src={img} alt="Shoes" />
         </figure>
         <div className="card-body">
-          <h2 className="card-title text-primary font-bold">
-            ${price}
-            <span className="text-xs text-gray-400">/month</span>
-          </h2>
-          <h2 className="card-title font-bold">{name}</h2>
+          <div className="flex justify-between">
+            <div>
+              <h2 className="card-title text-primary font-bold">
+                ${price}
+                <span className="text-xs text-gray-400">/month</span>
+              </h2>
+              <h2 className="card-title font-bold">{name}</h2>
+            </div>
+            <div className="h-8 w-8 flex justify-center items-center ring-2 ring-gray-300 rounded-full">
+              <CgHeart className="h-5 w-5 text-primary " />
+            </div>
+          </div>
           <p className="text-start text-gray-400 font-semibold ">{address}</p>
           <div className="divider m-0"></div>
           <div className="card-actions flex justify-evenly">
