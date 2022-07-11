@@ -46,7 +46,9 @@ const SearchFilters = () => {
         </div>
         <div className="h-0 md:h-12 lg:h-12 w-0 md:w-[2px] lg:w-[2px] rounded-full bg-gray-300 my-auto"></div>
         <div className="flex justify-center items-center">
-          <button className="btn btn-primary text-white">Search</button>
+          <button className="btn btn-primary text-white normal-case">
+            Search
+          </button>
         </div>
       </div>
     </div>
