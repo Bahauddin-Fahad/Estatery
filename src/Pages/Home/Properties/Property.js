@@ -20,15 +20,15 @@ const Property = ({ property }) => {
           <div className="card-actions flex justify-evenly">
             <div className="flex items-center gap-1">
               <IoBedOutline className="text-primary w-6 h-6" />
-              <p> {bed} Beds</p>
+              <p className="text-gray-400 font-semibold"> {bed} Beds</p>
             </div>
             <div className="flex items-center gap-1">
               <TbBath className="text-primary w-6 h-6" />
-              <p> {bath} Bathrooms</p>
+              <p className="text-gray-400 font-semibold"> {bath} Bathrooms</p>
             </div>
             <div className="flex items-center gap-1">
               <TbSquareRotated className="text-primary w-6 h-6" />
-              <p>
+              <p className="text-gray-400 font-semibold">
                 {area} m<sup>2</sup>
               </p>
             </div>
