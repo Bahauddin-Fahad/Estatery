@@ -32,11 +32,11 @@ const SearchFilters = () => {
           <p className="text-start text-gray-400 text-sm font-bold">Price</p>
           <select className="select select-ghost w-full max-w-xs pl-0 font-bold">
             <option disabled selected>
-              $500-$2,500
+              $500-$2,000
             </option>
-            <option>Svelte</option>
-            <option>Vue</option>
-            <option>React</option>
+            <option>$2,000-$3,100</option>
+            <option>$3,100-$4,400</option>
+            <option>$4,400-$6,000</option>
           </select>
         </div>
         <div className="h-0 md:h-12 lg:h-12 w-0 md:w-[2px] lg:w-[2px] rounded-full bg-gray-300 my-auto"></div>
@@ -48,9 +48,8 @@ const SearchFilters = () => {
             <option disabled selected>
               Houses
             </option>
-            <option>Svelte</option>
-            <option>Vue</option>
-            <option>React</option>
+            <option>Cottage</option>
+            <option>Aparments</option>
           </select>
         </div>
         <div className="h-0 md:h-12 lg:h-12 w-0 md:w-[2px] lg:w-[2px] rounded-full bg-gray-300 my-auto"></div>
