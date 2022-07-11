@@ -8,7 +8,7 @@ const SearchBar = () => {
         <input
           className="font-bold placeholder:font-bold p-1 pl-2 border-2 border-gray-300 rounded-md input w-full max-w-xs"
           type="text"
-          placeholder="Search with Search Bar>"
+          placeholder="Search with Search Bar"
         />
       </div>
     </div>

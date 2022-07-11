@@ -7,7 +7,7 @@
     "address": "2699 Green Valley,Highland Lake,FL",
     "bed": 3,
     "bath": 2,
-    "area": "5x7 m"
+    "area": "5x7"
   },
   {
     "_id": 2,
@@ -17,7 +17,7 @@
     "address": "2821 Lake Sevilla,Palm Harbor,TX",
     "bed": 4,
     "bath": 2,
-    "area": "6x7.5 m"
+    "area": "6x7.5"
   },
   {
     "_id": 3,
@@ -27,66 +27,66 @@
     "address": "900 Woodland St,Michigan,IN",
     "bed": 4,
     "bath": 3,
-    "area": "8x10 m"
+    "area": "8x10"
   },
   {
     "_id": 4,
     "img": "./images/property4.jpg",
     "name": "Meadow View",
-    "price": "2,095",
-    "address": "2699 Green Valley,Highland Lake,FL",
-    "bed": 3,
-    "bath": 2,
-    "area": "5x7 m"
+    "price": "5,490",
+    "address": "6170 Pine St,Seattle,WA",
+    "bed": 4,
+    "bath": 4,
+    "area": "8x11"
   },
   {
     "_id": 5,
     "img": "./images/property5.jpg",
     "name": "Oak Barn",
-    "price": "2,095",
-    "address": "2699 Green Valley,Highland Lake,FL",
-    "bed": 3,
+    "price": "3,400",
+    "address": "6896 Georgetown,Redding Town,CT",
+    "bed": 4,
     "bath": 2,
-    "area": "5x7 m"
+    "area": "7x9"
   },
   {
     "_id": 6,
     "img": "./images/property6.jpg",
     "name": "Corner House",
-    "price": "2,095",
-    "address": "2699 Green Valley,Highland Lake,FL",
-    "bed": 3,
+    "price": "3,840",
+    "address": "13460 Sherburne,Chenango County,NY",
+    "bed": 4,
     "bath": 2,
-    "area": "5x7 m"
+    "area": "8x9"
   },
   {
     "_id": 7,
     "img": "./images/property7.jpg",
     "name": "The Old Rectory",
-    "price": "2,095",
-    "address": "2699 Green Valley,Highland Lake,FL",
-    "bed": 3,
-    "bath": 2,
-    "area": "5x7 m"
+    "price": "5,340",
+    "address": "30458 Statesboro City,Bulloch County,GA",
+    "bed": 5,
+    "bath": 4,
+    "area": "9,5x11"
   },
   {
     "_id": 8,
     "img": "./images/property8.jpg",
     "name": "Vicarage Hall",
-    "price": "2,095",
-    "address": "2699 Green Valley,Highland Lake,FL",
-    "bed": 3,
-    "bath": 2,
-    "area": "5x7 m"
+    "price": "4,530",
+    "address": "64024 Excelsior Springs City,Clay County,MO",
+    "bed": 4,
+    "bath": 3,
+    "area": "9x10"
   },
   {
     "_id": 9,
     "img": "./images/property9.jpg",
     "name": "Toad Fairview",
-    "price": "2,095",
-    "address": "2699 Green Valley,Highland Lake,FL",
+    "price": "3,680",
+    "address": "27028 Mocksville Town,Davie County,NC",
     "bed": 3,
     "bath": 2,
-    "area": "5x7 m"
+    "area": "6x7.5"
   }
 ]

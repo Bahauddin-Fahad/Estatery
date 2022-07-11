@@ -10,7 +10,7 @@ const Properties = () => {
   //   console.log(properties);
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-10 w-full max-w-5xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-10 w-full max-w-sm md:max-w-3xl lg:max-w-5xl mx-auto">
         {properties.map((property) => (
           <Property key={property._id} property={property} />
         ))}

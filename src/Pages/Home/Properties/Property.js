@@ -28,8 +28,9 @@ const Property = ({ property }) => {
             </div>
             <div className="flex items-center gap-1">
               <TbSquareRotated className="text-primary w-6 h-6" />
-              {area}
-              <sup>2</sup>
+              <p>
+                {area} m<sup>2</sup>
+              </p>
             </div>
           </div>
         </div>

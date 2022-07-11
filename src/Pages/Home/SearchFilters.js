@@ -2,9 +2,9 @@ import React from "react";
 
 const SearchFilters = () => {
   return (
-    <div className="bg-white w-full max-w-5xl mx-auto mt-10 p-2 rounded-md">
-      <div className="flex justify-around pt-2">
-        <div>
+    <div className="bg-white w-full max-w-sm md:max-w-3xl lg:max-w-5xl mx-auto mt-10 p-2 rounded-md">
+      <div className="flex flex-col md:flex-row lg:flex-row justify-evenly">
+        <div className="pt-2">
           <p className="text-start text-gray-400 text-sm font-bold">Location</p>
           <select className="select select-ghost w-full max-w-sm pl-0 font-bold">
             <option disabled selected>
@@ -15,8 +15,8 @@ const SearchFilters = () => {
             <option>California</option>
           </select>
         </div>
-        <div className="h-14 w-[2px] rounded-full bg-gray-300"></div>
-        <div>
+        <div className="h-0 md:h-12 lg:h-12 w-0 md:w-[2px] lg:w-[2px] rounded-full bg-gray-300 my-auto"></div>
+        <div className="pt-2">
           <p className="text-start text-gray-400 text-sm font-bold">When</p>
           <select className="select select-ghost w-full max-w-xs pl-0 font-bold">
             <option disabled selected>
@@ -27,9 +27,8 @@ const SearchFilters = () => {
             <option>React</option>
           </select>
         </div>
-        <div className="h-14 w-[2px] rounded-full bg-gray-300"></div>
-        <div></div>
-        <div>
+        <div className="h-0 md:h-12 lg:h-12 w-0 md:w-[2px] lg:w-[2px] rounded-full bg-gray-300 my-auto"></div>
+        <div className="pt-2">
           <p className="text-start text-gray-400 text-sm font-bold">Price</p>
           <select className="select select-ghost w-full max-w-xs pl-0 font-bold">
             <option disabled selected>
@@ -40,9 +39,8 @@ const SearchFilters = () => {
             <option>React</option>
           </select>
         </div>
-        <div className="h-14 w-[2px] rounded-full bg-gray-300"></div>
-        <div></div>
-        <div>
+        <div className="h-0 md:h-12 lg:h-12 w-0 md:w-[2px] lg:w-[2px] rounded-full bg-gray-300 my-auto"></div>
+        <div className="pt-2">
           <p className="text-start text-gray-400 text-sm font-bold">
             Property Type
           </p>
@@ -55,9 +53,8 @@ const SearchFilters = () => {
             <option>React</option>
           </select>
         </div>
-        <div className="h-14 w-[2px] rounded-full bg-gray-300"></div>
-        <div></div>
-        <div className="flex items-center">
+        <div className="h-0 md:h-12 lg:h-12 w-0 md:w-[2px] lg:w-[2px] rounded-full bg-gray-300 my-auto"></div>
+        <div className="flex justify-center items-center">
           <button className="btn btn-primary text-white">Search</button>
         </div>
       </div>
