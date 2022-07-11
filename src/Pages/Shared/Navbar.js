@@ -64,7 +64,7 @@ const Navbar = () => {
               </ul>
             </li>
             <li tabindex="0">
-              <Link to="" className="justify-between">
+              <Link to="" className="justify-between font-bold">
                 Resources
                 <svg
                   className="fill-current"
@@ -87,7 +87,10 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <Link to="" className="btn btn-ghost normal-case text-xl font-bold">
+        <Link
+          to=""
+          className="btn btn-ghost normal-case text-xl font-bold hidden sm:flex md:flex lg:flex"
+        >
           <FaEnvelopeOpen className="text-primary mr-2" /> Estatery
         </Link>
         <div className=" hidden lg:flex mx-auto">
