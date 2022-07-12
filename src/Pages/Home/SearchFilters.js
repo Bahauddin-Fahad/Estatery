@@ -7,7 +7,7 @@ const SearchFilters = () => {
         <div className="pt-2">
           <p className="text-start text-gray-400 text-sm font-bold">Location</p>
           <select className="select select-ghost w-full max-w-sm pl-0 font-bold focus:outline-none">
-            <option selected>New York,USA</option>
+            <option value="New York,USA">New York,USA</option>
             <option>Los Angels</option>
             <option>Texas</option>
             <option>California</option>
@@ -17,7 +17,7 @@ const SearchFilters = () => {
         <div className="pt-2">
           <p className="text-start text-gray-400 text-sm font-bold">When</p>
           <select className="select select-ghost w-full max-w-xs pl-0 font-bold focus:outline-none">
-            <option selected>Select Move-in Date</option>
+            <option value="Select Move-in Date">Select Move-in Date</option>
             <option>Svelte</option>
             <option>Vue</option>
             <option>React</option>
@@ -27,7 +27,7 @@ const SearchFilters = () => {
         <div className="pt-2">
           <p className="text-start text-gray-400 text-sm font-bold">Price</p>
           <select className="select select-ghost w-full max-w-xs pl-0 font-bold focus:outline-none">
-            <option selected>$500-$2,000</option>
+            <option value="$500-$2,000">$500-$2,000</option>
             <option>$2,000-$3,100</option>
             <option>$3,100-$4,400</option>
             <option>$4,400-$6,000</option>
@@ -39,7 +39,7 @@ const SearchFilters = () => {
             Property Type
           </p>
           <select className="select select-ghost w-full max-w-xs pl-0 font-bold focus:outline-none">
-            <option selected>Houses</option>
+            <option value="Houses">Houses</option>
             <option>Cottage</option>
             <option>Aparments</option>
           </select>

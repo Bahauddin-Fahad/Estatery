@@ -3,7 +3,7 @@ import { CgHeart } from "react-icons/cg";
 import { IoBedOutline } from "react-icons/io5";
 import { TbBath, TbSquareRotated } from "react-icons/tb";
 const Property = ({ property }) => {
-  const { _id, name, img, price, address, bed, bath, area } = property;
+  const { name, img, price, address, bed, bath, area } = property;
   return (
     <div className="mx-auto">
       <div className="card card-compact bg-base-100 shadow-xl">
