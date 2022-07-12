@@ -5,9 +5,8 @@ import SearchFilters from "./SearchFilters";
 
 const Home = () => {
   const [inputValue, setInputValue] = useState("");
-  const getInputValue = () => {
-    const inputField = document.getElementById("searchInput");
-    const inputValue = inputField.value.toLowerCase();
+  const getInputValue = (e) => {
+    const inputValue = e.target.value.toLowerCase();
     setInputValue(inputValue);
   };
   return (
